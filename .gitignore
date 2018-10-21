@@ -1,0 +1,16 @@
+target/classes/META-INF/MANIFEST.MF
+target/classes/META-INF/maven/contractTesting/contractTesting/pom.properties
+target/classes/META-INF/maven/contractTesting/contractTesting/pom.xml
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+target/surefire-reports/contractTesting.RunCucumberTest.txt
+target/surefire-reports/TEST-contractTesting.RunCucumberTest.xml
+target/test-classes/contractTesting/.gitkeep
+target/test-classes/contractTesting/contract.feature
+target/test-classes/contractTesting/package-info.class
+target/test-classes/contractTesting/RunCucumberTest.class
+target/test-classes/contractTesting/Stepdefs.class
+target/test-classes/environment/Environment.class
+target/test-classes/environment/package-info.class
+target/test-classes/ServiceHelper/package-info.class
+target/test-classes/ServiceModel/package-info.class
