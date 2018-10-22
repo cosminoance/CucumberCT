@@ -5,19 +5,11 @@ Feature: Contract
   @tag1
   Scenario Outline: Contract test <service>
     Given I set environment with <context>
-    When I request <service> with helper <request_helper>
-    Then I verify the reponse with helper <request_helper>
+    When I request <service> with helper <request>
+    Then I verify the reponse with helper <request>
 
     Examples: 
-      | context | service | request_helper |
-      | env1    | getUser | getUserHelper  |
+      | context | service | request        |
+      | env1    | /login   | loginRequest   |
 
-  @tag1
-  Scenario Outline: Contract test <service>
-    Given I set custom environment
-    When I request <service> with helper <request_helper>
-    Then I verify the reponse with helper <request_helper>
 
-    Examples: 
-      | context | service | request_helper |
-      | env1    | getUser | getUserHelper  |
