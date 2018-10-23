@@ -9,7 +9,7 @@ Feature: Contract
     Then I verify the reponse with helper <request>
 
     Examples: 
-      | context | service | request        |
+      | context | service  | request        |
       | env1    | /login   | loginRequest   |
 
 

@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 
 public class Environment {
 	
-	@Given("^I set environment with (env\\d+)$")
+	@Given("^I set environment with (.*)$")
 	public void i_set_environment_with_env(String envName) throws Exception {
 	    // This can take environment definition from utils/env/[envName]
 	    System.out.println(envName);
