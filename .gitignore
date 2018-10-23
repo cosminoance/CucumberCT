@@ -14,3 +14,14 @@ target/test-classes/environment/Environment.class
 target/test-classes/environment/package-info.class
 target/test-classes/ServiceHelper/package-info.class
 target/test-classes/ServiceModel/package-info.class
+target/test-classes/openAPI.class
+target/test-classes/contractTesting/OA3.feature
+target/test-classes/mockServer/package-info.class
+target/test-classes/mockServer/SimpleService.class
+target/test-classes/openAPI/IModel.class
+target/test-classes/openAPI/IParser.class
+target/test-classes/openAPI/Model.class
+target/test-classes/openAPI/OA3.class
+target/test-classes/openAPI/package-info.class
+target/test-classes/openAPI/Parser.class
+target/test-classes/serviceHelper/LoadFromFile.class
